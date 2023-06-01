@@ -50,3 +50,22 @@ class Navbar extends React.PureComponent {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  mainNav: {
+    flex: 1,
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    padding: 10,
+    alignItems: 'center',
+  },
+  logo: {
+    width: 50,
+    height: 50,
+  },
+});
+
+Navbar.propTypes = propTypes;
+Navbar.defaultProps = defaultProps;
+
+export default Navbar;
