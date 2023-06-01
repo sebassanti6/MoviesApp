@@ -1,7 +1,5 @@
-
 import React, {useEffect, useState} from 'react';
 import {
-    
   ActivityIndicator,
   View,
   StyleSheet,
@@ -40,3 +38,5 @@ const Home = ({navigation}) => {
       getDocumentaryMovies(),
     ]);
   };
+
+ 

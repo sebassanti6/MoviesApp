@@ -1,6 +1,9 @@
 import * as React from 'react'
 import {createStackNavigator} from '@react-navigation/stack'
-
+import Home from '../screens/Home';
+import Navbar from './Navbar';
+import Detail from '../screens/Detail';
+import Search from '../screens/Search';
 const Stack = createStackNavigator()
 
 class MainNavigation extends React.PureComponent{
